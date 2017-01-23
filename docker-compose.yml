@@ -1,7 +1,7 @@
 version: '2'
 services:
-  web:
+  tests:
     build: .
-    command: python app.py
+    command: python test.py
     volumes:
     - .:/code
